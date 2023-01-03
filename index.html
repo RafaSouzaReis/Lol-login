@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Riot Games</title>
+</head>
+    <body>
+        <main>
+            <section class="login">
+                <div class="wrapper">
+                    <img src="./img/logo.png" class="login-logo">
+                    <h1 class="login-title">Fazer login</h1>
+                    <label class="login-label">
+                        <span>nome de usuário</span>
+                        <input type="text" name="username" class="input">
+                    </label>
+                    <label class="login-label">
+                        <span>senha</span>
+                        <input type="password" name="password" class="input">
+                    </label>
+                    <div class="login-icons">
+                        <button class="icon-buttons">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </button>
+                        <button class="icon-buttons">
+                            <img src="./img/Google__G__Logo.svg.png">
+                        </button>
+                        <button class="icon-buttons">
+                            <ion-icon name="logo-apple"></ion-icon>
+                        </button>
+                    </div>
+                    <label class="login-label-checkbox">
+                        <input type="checkbox" class="input-checkbox">
+                        Manter login
+                    </label>
+                </div>
+
+                <div class="wrapper">
+                    <button type="button" class="login-button" disabled>
+                        <ion-icon name="arrow-forward"></ion-icon>
+                    </button>
+                    <a href="#" class="login-link">não consegue iniciar sessão?</a>
+                    <a href="#" class="login-link">criar conta</a>
+                </div>
+            </section>
+            <section class="box-wallpaper">
+                <video src="./video/videoplayback.mp4" autoplay muted loop class="wallpaper"/>
+            </section>
+        </main>
+
+        <script src="./script.js"></script>
+        <script  type = "module"  src = "https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"> </script> 
+        <script  nomodule  src = "https://unpkg .com/ionicons@5.5.2/dist/ionicons/ionicons.js"> </script>
+    </body>
+</html>
